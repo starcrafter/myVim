@@ -121,3 +121,5 @@ set mouse=a
 " show history
 nnoremap <c-n> :MRU
 
+" disable paren match for confusion
+let loaded_matchparen = 1 
