@@ -116,10 +116,17 @@ let tlist_php_settings = 'php;c:class;f:function'
 
 " 
 nmap <S-q> : TW<CR>
-set mouse=a
+set mouse-=a
 
 " show history
 nnoremap <c-n> :MRU
 
 " disable paren match for confusion
 let loaded_matchparen = 1 
+
+" block comments
+vnoremap # :s#^#\##<cr>
+vnoremap -# :s#^\###<cr>
+vnoremap // :s/^/\/\//<cr>
+vnoremap -// :s/^\/\///<cr>
+
