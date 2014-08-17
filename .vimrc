@@ -132,3 +132,10 @@ vnoremap -// :s/^\/\///<cr>
 
 " copy and paste
 xnoremap p "_dP
+
+" easy tag: disable auto highlight
+let g:easytags_on_cursorhold = 0
+let g:easytags_autorecurse = 0
+let g:easytags_auto_highlight = 0
+let g:easytags_always_enabled = 0
+let g:easytags_resolve_links = 1
