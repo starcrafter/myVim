@@ -130,3 +130,5 @@ vnoremap -# :s#^\###<cr>
 vnoremap // :s/^/\/\//<cr>
 vnoremap -// :s/^\/\///<cr>
 
+" copy and paste
+xnoremap p "_dP
