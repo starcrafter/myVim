@@ -139,3 +139,6 @@ let g:easytags_autorecurse = 0
 let g:easytags_auto_highlight = 0
 let g:easytags_always_enabled = 0
 let g:easytags_resolve_links = 1
+
+" syntastic
+let g:syntastic_auto_loc_list = 1
